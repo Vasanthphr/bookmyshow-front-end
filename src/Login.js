@@ -111,17 +111,17 @@ function Login() {
          <div className="user-details">
          Role: User
           <br />
-          username:kumar
+          <b>Username:</b> Kumar
           <br />
-          password: user@123
+          <b>Password:</b> user@123
          </div>
           <br />
          <div className="admin-details">
-         Role: Admin
+         <b>Role:</b> Admin
           <br />
-          username: Vasanth
+          <b>Username:</b> Vasanth
           <br />
-          password: admin@123
+          <b>Password:</b> admin@123
          </div>
           <br />
         </div>

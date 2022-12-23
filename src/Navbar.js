@@ -1,5 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import bookmyshowlogo from "./images/bookmyshow.png";
+
 function Navbar(props) {
   let navigate = useNavigate();
   let doLogout = () => {
@@ -7,12 +9,12 @@ function Navbar(props) {
     navigate("/");
   };
   return (
-    <nav class="navbar navbar-expand-lg bg-danger">
+    <nav class="navbar navbar-expand-lg bg-info">
       <div class="container-fluid">
         <img
-          src="../images/bookmyshow.jpg"
-          width="110"
-          height="30"
+          src={bookmyshowlogo}
+          width="140"
+          height="50"
           className="d-inline-block align-top"
           alt="book my show logo"
         />

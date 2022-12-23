@@ -53,7 +53,7 @@ function Dashboard() {
     <>
       <Navbar data={`${contextData.UserName}`} />
       <div className="container">
-        <div className="row">
+        <div className="row ">
           <div className="col">
             <h1 className="text-danger text-center"> Movie List </h1>
           </div>

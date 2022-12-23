@@ -96,13 +96,14 @@ function AdminDashboard() {
       <Navbar data={`${contextData.UserName}`} />
       <div className="container mt-5">
         <div className="row">
-          <div className="col">
+          <div className="col-lg-12">
+          <div className="row">
+          <div className="col-lg-5  ">
             <h2 style={{color:"crimson"}}> Enter Movie details </h2>
           </div>
         </div>
-        <div className="row">
-          <div className="col">
-            <form onSubmit={formik.handleSubmit}>
+      
+            <form onSubmit={formik.handleSubmit} className="add-movies">
               <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">
                   <h5>Movie Name</h5>
@@ -144,7 +145,7 @@ function AdminDashboard() {
                 Submit
               </button>
             </form>
-            <div className="row">
+           
               <div className="col mt-4 m-1 p-0">
                 <h3 style={{color:"crimson"}}> Movies List</h3>
                 <table class="table">
@@ -180,7 +181,7 @@ function AdminDashboard() {
               </div>
             </div>
           </div>
-        </div>
+      
       </div>
     </>
   );
