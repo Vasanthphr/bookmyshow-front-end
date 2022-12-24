@@ -69,6 +69,7 @@
 }
 
 .sign-in-field {
+  padding: 5px;
   position: relative;
   left: 35%;
   top: 50px;
