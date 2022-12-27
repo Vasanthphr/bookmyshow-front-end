@@ -108,3 +108,27 @@
 }
 
 
+.ticket-count-btn{
+  height: 38px;
+  position: relative;
+  top: 32px;
+  left: 2px;
+}
+
+.ticket-count-btn  :hover{
+  color: aqua;
+}
+
+.img-thumbnail{
+  width: 15%;
+  aspect-ratio: 3/3;
+  object-fit: contain;
+}
+
+.hall-img{
+  position: absolute;
+  width: 800px;
+  left: 600px;
+  bottom: 220px;
+  border-radius: 30px;
+}

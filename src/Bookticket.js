@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import Navbar from "./Navbar";
 import UserContext from "./usercontext";
 import SeatPicker from "react-seat-picker";
+import cinemahall from "./images/cinema-hall.jpg";
 import "./App.css";
 import { useNavigate } from "react-router-dom";
 function Bookticket() {
@@ -158,13 +159,15 @@ let count = contextData.count
   return (
     <>
       <Navbar data={`${contextData.UserName}`} />
-      <div className="container">
+      <div className="container tickets-page">
         <div className="row">
           <div className="col mt-4">
             <h3>{`Movie: ${contextData.title}`}</h3>
           </div>
         </div>
       </div>
+
+      
       <div className="container">
         <div className="row">
           <SeatPicker
@@ -204,6 +207,8 @@ let count = contextData.count
           ) : null}
         </div>
       </div>
+      <img src={cinemahall} className="hall-img" alt=""/>
+
     </>
   );
 }

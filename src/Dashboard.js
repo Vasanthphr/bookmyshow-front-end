@@ -51,8 +51,7 @@ function Dashboard() {
   };
   return (
     <>
-      <Navbar data={`${contextData.UserName}`} />
-      <div className="container">
+z      <div className="container">
         <div className="row ">
           <div className="col">
             <h1 className="text-danger text-center"> Movie List </h1>
@@ -72,7 +71,7 @@ function Dashboard() {
               />
             </div>
 
-            <button type="submit" className="btn btn-danger m-0 p-0 ">
+            <button type="submit" className="btn btn-secondary ticket-count-btn ">
               Submit
             </button>
           </form>

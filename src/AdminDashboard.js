@@ -93,7 +93,7 @@ function AdminDashboard() {
   }
   return (
     <>
-      <Navbar data={`${contextData.UserName}`} />
+      {/* <Navbar data={`${contextData.UserName}`} /> */}
       <div className="container mt-5">
         <div className="row">
           <div className="col-lg-12">
@@ -167,9 +167,6 @@ function AdminDashboard() {
                           <td>
                           <Link className="btn btn-sm btn-success"
                               to={`/admin-dashboard/${movie._id}`}>View</Link> 
-
-                            <Link className="btn btn-sm btn-warning"
-                              to={`/admin-dashboard/edit/${movie._id}`}>Edit</Link>              
                             <button className="btn btn-danger"
                               onClick={() => handleDelete(movie._id)}>Delete</button>
                           </td>

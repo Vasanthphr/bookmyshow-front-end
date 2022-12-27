@@ -38,7 +38,7 @@ function Login() {
     },
   });
   return (
-    <div className="container-fluid ">
+    <div className="container-fluid  m-0">
       <div className="logo-background">
         <img
           src={bookmyshowlogo}
@@ -109,7 +109,7 @@ function Login() {
         <strong className="heading-pass">For Testing:</strong>
           <br />
          <div className="user-details">
-         Role: User
+         <b>Role:</b> User
           <br />
           <b>Username:</b> Kumar
           <br />
